@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.heading{
+    height: 70vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: #DB545A;
+    font-size: 6rem;
+    font-weight: bold;
+    width: 30%;
+}
+.num{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+h2{
+    font-size: 2rem;
+}
+.call{
+    width: 3rem;
+    height: 3rem;
+}
+.text{
+    height: 90vh;
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 35rem;
+    text-align: center;
+}
+.text h3{
+    font-size: 1.9rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+.line{
+    width: 27%;
+    border: 2rem #000;
+    background: rgba(0, 0, 0, .9);
+    height: .8rem;
+    margin-bottom: 1.5rem;
+}
+p{
+    color: rgb(148, 148, 148);
+    font-size: 1.6rem;
+    width: 55%;
+}
+span{
+    color: #DB545A;
+    font-size: 1.6rem;
+    margin-left: .5rem;
+    cursor: pointer;
+}
